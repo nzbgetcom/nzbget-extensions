@@ -1,0 +1,50 @@
+name: extension release
+
+on:
+  workflow_call:
+    inputs:
+      release-file-list:
+        required: true
+        type: string
+      release-file-name:
+        required: true
+        type: string
+      release-dir:
+        type: string
+        default: ""
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v3
+
+    - name: Prepare release archive
+      run: |
+        RELEASE_PATH=/tmp/release/${{ inputs.release-file-name }}/${{ inputs.release-dir }}
+        mkdir -p $RELEASE_PATH
+        for FILE in ${{ inputs.release-file-list }}; do cp -r $FILE $RELEASE_PATH; done
+        cd $RELEASE_PATH
+        if [ ! -z "${{ inputs.release-dir }}" ]; then cd ..; fi
+        VERSION=${GITHUB_REF_NAME/v/}
+        zip -r ${{ inputs.release-file-name }}-$VERSION-dist.zip *
+        echo VERSION=$VERSION >> $GITHUB_ENV
+
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "/tmp/release/${{ inputs.release-file-name }}/*.zip"
+        generateReleaseNotes: true
+        allowUpdates: true
+        removeArtifacts: true
+        omitBodyDuringUpdate: true
+        name: "Version ${{ env.VERSION }}"
+
+    - name: Cleanup
+      run: |
+        rm -rf /tmp/release/${{ inputs.release-file-name }}
