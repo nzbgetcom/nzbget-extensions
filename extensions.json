@@ -7,7 +7,7 @@
 		"author": "Andrey Prygunkov (nzbget@gmail.com)",
 		"license": "GNU",
 		"about": "Sort movies and tv shows.",
-		"link": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v9.0/videosort-9.0-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v9.0/videosort-9.0-dist.zip"
 	},
 	{
 		"name": "FakeDetector",
@@ -17,16 +17,16 @@
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Detect nzbs with fake media files.",
-		"link": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v2.0/fakedetector-2.0-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v2.0/fakedetector-2.0-dist.zip"
 	},
 	{
 		"name": "FailureLink",
-		"homepage": "",
+		"homepage": "https://github.com/nzbgetcom/Extension-FailureLink",
 		"displayName": "Failure Link",
 		"version": "2.0.0",
 		"author": "Andrey Prygunkov, Clinton Hall",
 		"license": "GNU",
 		"about": "Check videos to determine if they are corrupt. Inform indexer site about failed or corrupt download and request a replacement nzb.",
-		"link": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v2.0/failurelink-2.0-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v2.0/failurelink-2.0-dist.zip"
 	}
 ]
