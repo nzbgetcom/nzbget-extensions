@@ -4,7 +4,7 @@
 		"homepage": "https://github.com/nzbgetcom/Extension-VideoSort",
 		"displayName": "Video Sort",
 		"version": "9.0.0",
-		"author": "Andrey Prygunkov (nzbget@gmail.com)",
+		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Sort movies and tv shows.",
 		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v9.0/videosort-9.0-dist.zip"
@@ -24,9 +24,29 @@
 		"homepage": "https://github.com/nzbgetcom/Extension-FailureLink",
 		"displayName": "Failure Link",
 		"version": "2.0.0",
-		"author": "Andrey Prygunkov, Clinton Hall",
+		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Check videos to determine if they are corrupt. Inform indexer site about failed or corrupt download and request a replacement nzb.",
 		"url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v2.0/failurelink-2.0-dist.zip"
+	},
+	{
+		"name": "EMail",
+		"homepage": "https://github.com/nzbgetcom/Extension-EMail",
+		"displayName": "EMail",
+		"version": "2.0.0",
+		"author": "Andrey Prygunkov",
+		"license": "GNU",
+		"about": "Send E-Mail notification.",
+		"url": "https://github.com/nzbgetcom/Extension-EMail/releases/download/v2.0/email-2.0-dist.zip"
+	},
+	{
+		"name": "Logger",
+		"homepage": "https://github.com/nzbgetcom/Extension-Logger",
+		"displayName": "Logger",
+		"version": "2.0.0",
+		"author": "Andrey Prygunkov",
+		"license": "GNU",
+		"about": "Save nzb log into a file.",
+		"url": "https://github.com/nzbgetcom/Extension-Logger/releases/download/v2.0/logger-2.0-dist.zip"
 	}
 ]
