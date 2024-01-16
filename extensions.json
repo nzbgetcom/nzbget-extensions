@@ -6,7 +6,7 @@
 		"version": "9.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
-		"about": "Sort movies and tv shows.",
+		"about": "Sorts movies and tv shows.",
 		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v9.0/videosort-9.0-dist.zip"
 	},
 	{
@@ -16,7 +16,7 @@
 		"version": "2.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
-		"about": "Detect nzbs with fake media files.",
+		"about": "Detects nzbs with fake media files.",
 		"url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v2.0/fakedetector-2.0-dist.zip"
 	},
 	{
@@ -26,7 +26,7 @@
 		"version": "2.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
-		"about": "Check videos to determine if they are corrupt. Inform indexer site about failed or corrupt download and request a replacement nzb.",
+		"about": "Checks videos to determine if they are corrupt. Inform indexer site about failed or corrupt download and request a replacement nzb.",
 		"url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v2.0/failurelink-2.0-dist.zip"
 	},
 	{
@@ -36,7 +36,7 @@
 		"version": "2.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
-		"about": "Send E-Mail notification.",
+		"about": "Sends E-Mail notification.",
 		"url": "https://github.com/nzbgetcom/Extension-EMail/releases/download/v2.0/email-2.0-dist.zip"
 	},
 	{
@@ -46,7 +46,7 @@
 		"version": "2.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
-		"about": "Save nzb log into a file.",
+		"about": "Saves nzb log into a file",
 		"url": "https://github.com/nzbgetcom/Extension-Logger/releases/download/v2.0/logger-2.0-dist.zip"
 	}
 ]
