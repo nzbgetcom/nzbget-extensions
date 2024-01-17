@@ -3,31 +3,31 @@
 		"name": "VideoSort",
 		"homepage": "https://github.com/nzbgetcom/Extension-VideoSort",
 		"displayName": "Video Sort",
-		"version": "9.0.0",
+		"version": "10.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Sorts movies and tv shows.",
-		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v9.0/videosort-9.0-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v10.0/videosort-10.0-dist.zip"
 	},
 	{
 		"name": "FakeDetector",
 		"homepage": "https://github.com/nzbgetcom/Extension-FakeDetector",
 		"displayName": "Fake Detector",
-		"version": "2.0.0",
+		"version": "3.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Detects nzbs with fake media files.",
-		"url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v2.0/fakedetector-2.0-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.0/fakedetector-3.0-dist.zip"
 	},
 	{
 		"name": "FailureLink",
 		"homepage": "https://github.com/nzbgetcom/Extension-FailureLink",
 		"displayName": "Failure Link",
-		"version": "2.0.0",
+		"version": "3.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Checks videos to determine if they are corrupt. Inform indexer site about failed or corrupt download and request a replacement nzb.",
-		"url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v2.0/failurelink-2.0-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v3.0/failurelink-3.0-dist.zip"
 	},
 	{
 		"name": "EMail",

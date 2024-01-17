@@ -1,27 +1,16 @@
-# NZBGet extensions
+## NZBGet extensions
 
-## This repository contains a list of NZBGet extensions, which is used by the Extension manager to download and update them.
+This repository contains a list of NZBGet extensions, which is used by the Extension manager to download and update them.
 
 ## If you want to add your extension to this list, you will need
 
- 1. Create a new repository in the [nzbgetcom](https://github.com/nzbgetcom) organization with such name Extension-{YourExtensionName}.
+ 1. Make your extension compatible with nzbget spec (v23+). Create release with manifest inside (you can use any of nzbgetcom extension as example, e.g [EMail](https://github.com/nzbgetcom/Extension-EMail)). 
+ 2. Create fork of this repository, add brief information about your extension in JSON format to the "extensions.json" file and submit PR.
 
- 2. Add brief information about your extension in JSON format to the "extensions.json" file.
+## Questions
+You can use [issues](https://github.com/nzbgetcom/nzbget-extensions/issues) for any questions.
 
-Example:
-
-	{
-		"name": "VideoSort",
-		"homepage": "https://github.com/nzbgetcom/Extension-VideoSort",
-		"displayName": "Video Sort",
-		"version": "9.0.0",
-		"author": "Andrey Prygunkov",
-		"license": "GNU",
-		"about": "Sorts movies and tv shows.",
-		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v9.0/videosort-9.0-dist.zip"
-	}
-
-Contacts:
- - [luckedea](lucky@nzbget.com)
- - [phnzb](pavel@nzbget.com)
- - [dnzbk](denis@nzbget.com)
+## Maintainers:
+ - [luckedea](https://github.com/luckedea)
+ - [phnzb](https://github.com/phnzb)
+ - [dnzbk](https://github.com/dnzbk)
