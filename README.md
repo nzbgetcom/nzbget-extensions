@@ -4,7 +4,7 @@ This repository contains a list of NZBGet extensions, which is used by the Exten
 
 ## If you want to add your extension to this list, you will need
 
- 1. Make your extension compatible with nzbget spec (v23+). Create release with manifest inside (you can use any of nzbgetcom extension as example, e.g [EMail](https://github.com/nzbgetcom/Extension-EMail)). 
+ 1. Make your extension compatible with nzbget spec v23+ [comming soon]. Create release with manifest inside (you can use any of nzbgetcom extension as example, e.g [EMail](https://github.com/nzbgetcom/Extension-EMail)). 
  2. Create fork of this repository, add brief information about your extension in JSON format to the "extensions.json" file and submit PR.
 
 ## Questions
