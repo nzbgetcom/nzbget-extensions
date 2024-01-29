@@ -48,5 +48,15 @@
 		"license": "GNU",
 		"about": "Saves nzb log into a file",
 		"url": "https://github.com/nzbgetcom/Extension-Logger/releases/download/v2.0/logger-2.0-dist.zip"
+	},
+	{
+		"name": "Completion",
+		"homepage": "https://github.com/nzbgetcom/Extension-Completion",
+		"displayName": "Completion",
+		"version": "3.0.0",
+		"author": "kloaknet",
+		"license": "GPLv3",
+		"about": "Verifies that enough articles are available before starting the download",
+		"url": "https://github.com/nzbgetcom/Extension-Completion/releases/download/v3.0/completion-3.0-dist.zip"
 	}
 ]
