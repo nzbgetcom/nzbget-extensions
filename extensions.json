@@ -46,7 +46,7 @@
 		"version": "2.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
-		"about": "Saves nzb log into a file",
+		"about": "Saves nzb log into a file.",
 		"url": "https://github.com/nzbgetcom/Extension-Logger/releases/download/v2.0/logger-2.0-dist.zip"
 	},
 	{
@@ -56,7 +56,17 @@
 		"version": "3.0.0",
 		"author": "kloaknet",
 		"license": "GPLv3",
-		"about": "Verifies that enough articles are available before starting the download",
+		"about": "Verifies that enough articles are available before starting the download.",
 		"url": "https://github.com/nzbgetcom/Extension-Completion/releases/download/v3.0/completion-3.0-dist.zip"
+	},
+	{
+		"name": "ExtendedUnrar",
+		"homepage": "https://github.com/nzbgetcom/Extension-ExtendedUnrar",
+		"displayName": "Extended Unrar",
+		"version": "2.0.0",
+		"author": "thorli",
+		"license": "GNU",
+		"about": "Unrars nested rar files.",
+		"url": "https://github.com/nzbgetcom/Extension-ExtendedUnrar/releases/download/v2.0/extendedunrar-2.0-dist.zip"
 	}
 ]
