@@ -58,5 +58,15 @@
 		"license": "GNU",
 		"about": "Unrars nested rar files.",
 		"url": "https://github.com/nzbgetcom/Extension-ExtendedUnrar/releases/download/v2.0/extendedunrar-2.0-dist.zip"
+	},
+	{
+		"name": "PasswordDetector",
+		"homepage": "https://github.com/nzbgetcom/Extension-PasswordDetector",
+		"displayName": "Password Detector",
+		"version": "3.0.0",
+		"author": "JVM",
+		"license": "GNU",
+		"about": "Detects nzbs with password protected .rar archive.",
+		"url": "https://github.com/nzbgetcom/Extension-PasswordDetector/releases/download/v3.0/passworddetector-3.0-dist.zip"
 	}
 ]
