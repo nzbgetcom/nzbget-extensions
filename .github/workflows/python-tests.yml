@@ -23,7 +23,7 @@ jobs:
     steps:
 
     - name: Checkout
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Run tests
       run: |
@@ -31,12 +31,13 @@ jobs:
         TOTAL_FAILED=0
         TOTAL_SUCCESS=0
         for PYTHON_VERSION in ${{ inputs.python-versions }}; do
-            docker pull python:$PYTHON_VERSION >/dev/null
-            docker run python:$PYTHON_VERSION python --version
-            docker run -v ./:/tests python:$PYTHON_VERSION rm -rf /tests/__/
-            docker run -v ./:/tests python:$PYTHON_VERSION python /tests/${{ inputs.test-script }} > $TEST_RESULTS 2>&1 || true
+            PYTHON_IMAGE=ghcr.io/nzbgetcom/python:$PYTHON_VERSION
+            docker pull $PYTHON_IMAGE >/dev/null
+            docker run $PYTHON_IMAGE python --version
+            docker run -v ./:/tests $PYTHON_IMAGE rm -rf /tests/__/
+            docker run -v ./:/tests $PYTHON_IMAGE python /tests/${{ inputs.test-script }} > $TEST_RESULTS 2>&1 || true
             FAILED=$(cat $TEST_RESULTS | grep FAILED | wc -l)
-            SUCCESS=$(cat $TEST_RESULTS | grep SUCCESS | wc -l)
+            SUCCESS=$(cat $TEST_RESULTS | grep -e SUCCESS -e OK | wc -l)
             if [ "${{ inputs.debug }}" == "true" ]; then
                 cat $TEST_RESULTS
             fi
