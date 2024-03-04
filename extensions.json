@@ -76,7 +76,7 @@
 		"version": "3.0.0",
 		"author": "Andrey Prygunkov",
 		"license": "GPLv3",
-		"about": "Moves files into other location.",
+		"about": "Moves files after download into other locations.",
 		"url": "https://github.com/nzbgetcom/Extension-EasySort/releases/download/v3.0/easysort-3.0-dist.zip"
 	}
 ]
