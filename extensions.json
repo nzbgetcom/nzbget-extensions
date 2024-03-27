@@ -88,5 +88,15 @@
 		"license": "GNU",
 		"about": "Post-Processing extension to Update Plex Library.",
 		"url": "https://github.com/nzbgetcom/Extension-NotifyPlex/releases/download/v4.0/notifyplex-4.0-dist.zip"
+	},
+	{
+		"name": "SpeedControl",
+		"homepage": "https://github.com/nzbgetcom/Extension-SpeedControl",
+		"displayName": "Speed Control",
+		"version": "3.0",
+		"author": "Andrey Prygunkov",
+		"license": "GPLv3",
+		"about": "Sets speed limit based on category.",
+		"url": "https://github.com/nzbgetcom/Extension-SpeedControl/releases/download/v3.0/speedcontrol-3.0-dist.zip"
 	}
 ]
