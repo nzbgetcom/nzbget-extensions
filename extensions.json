@@ -88,5 +88,15 @@
 		"license": "GNU",
 		"about": "Post-Processing extension to Update Plex Library.",
 		"url": "https://github.com/nzbgetcom/Extension-NotifyPlex/releases/download/v4.0/notifyplex-4.0-dist.zip"
+	},
+	{
+		"name": "NotifySickChill",
+		"homepage": "https://github.com/nzbgetcom/Extension-NotifySickChill",
+		"displayName": "Notify SickChill",
+		"version": "1.0",
+		"author": "Denis",
+		"license": "GNU",
+		"about": "Manually starts SickChill post-processing.",
+		"url": "https://github.com/nzbgetcom/Extension-NotifySickChill/releases/download/v1.0/NotifySickChill-1.0-dist.zip"
 	}
 ]
