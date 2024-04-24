@@ -3,21 +3,21 @@
 		"name": "VideoSort",
 		"homepage": "https://github.com/nzbgetcom/Extension-VideoSort",
 		"displayName": "Video Sort",
-		"version": "10.2",
+		"version": "10.3",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Sorts movies and tv shows.",
-		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v10.2/videosort-10.2-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v10.3/videosort-10.3-dist.zip"
 	},
 	{
 		"name": "FakeDetector",
 		"homepage": "https://github.com/nzbgetcom/Extension-FakeDetector",
 		"displayName": "Fake Detector",
-		"version": "3.0.0",
+		"version": "3.1",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Detects nzbs with fake media files.",
-		"url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.0/fakedetector-3.0-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.1/fakedetector-3.1-dist.zip"
 	},
 	{
 		"name": "FailureLink",
