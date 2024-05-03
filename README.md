@@ -9,7 +9,7 @@ This repository contains a list of NZBGet extensions, which is used by the Exten
 
 2. If you think your extension is ready for release, you will need a repository for storing and releasing it
 in the nzbgetcom organization, e.g. `https://github.com/nzbgetcom/Extension-YourExtensionName/`. 
-Just ask one of the NZBGet maiteners to assist you with that.
+Just ask one of the NZBGet maintainers to assist you with that.
 
 3. Create a fork of that repository, add your extension to it, and make a Pull request.
 
