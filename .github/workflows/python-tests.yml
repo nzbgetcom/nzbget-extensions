@@ -52,4 +52,5 @@ jobs:
         rm $TEST_RESULTS
 
         printf "\nTotals for supported python versions (%s): SUCCESS: %2s FAILED: %2s\n" "${{ inputs.supported-python-versions }}" $TOTAL_SUCCESS $TOTAL_FAILED
+        if [ $TOTAL_FAILED -eq 0 ] && [ $TOTAL_SUCCESS -eq 0 ]; then exit 1; fi
         exit $TOTAL_FAILED
