@@ -109,6 +109,17 @@
 		"about": "Post-Processing extension to trigger SickChill after downloads.",
 		"url": "https://github.com/nzbgetcom/Extension-NotifySickChill/releases/download/v1.0/notifysickchill-1.0-dist.zip"
 	},
+	{
+		"name": "Completion",
+		"homepage": "https://github.com/nzbgetcom/Extension-Completion",
+		"displayName": "Completion",
+		"version": "3.0",
+		"nzbgetMinVersion": "23.0",
+		"author": "kloaknet",
+		"license": "GPLv3",
+		"about": "Verifies that enough articles are available before starting the download.",
+		"url": "https://github.com/nzbgetcom/Extension-Completion/releases/download/v3.0/completion-3.0-dist.zip"
+	},
     {
         "name": "SpeedControl",
         "homepage": "https://github.com/nzbgetcom/Extension-SpeedControl",
