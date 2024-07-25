@@ -130,5 +130,16 @@
         "license": "GPLv3",
         "about": "Sets speed limit based on category.",
         "url": "https://github.com/nzbgetcom/Extension-SpeedControl/releases/download/v3.0/speedcontrol-3.0-dist.zip"
+    },
+    {
+        "name": "AccessOwnership",
+        "homepage": "https://github.com/nzbgetcom/Extension-AccessOwnership",
+        "displayName": "AccessOwnership",
+        "version": "1.2",
+        "nzbgetMinVersion": "23.0",
+        "author": "Lennong",
+        "license": "GNU",
+        "about": "Sets access permissions & ownership to downloaded files.",
+        "url": "https://github.com/nzbgetcom/Extension-AccessOwnership/releases/download/v1.2/accessownership-1.2-dist.zip"
     }
 ]
