@@ -36,12 +36,12 @@
 		"name": "EMail",
 		"homepage": "https://github.com/nzbgetcom/Extension-EMail",
 		"displayName": "EMail",
-		"version": "2.0.0",
+		"version": "2.1",
         "nzbgetMinVersion": "23.0",
 		"author": "Andrey Prygunkov",
 		"license": "GNU",
 		"about": "Sends E-Mail notification.",
-		"url": "https://github.com/nzbgetcom/Extension-EMail/releases/download/v2.0/email-2.0-dist.zip"
+		"url": "https://github.com/nzbgetcom/Extension-EMail/releases/download/v2.1/email-2.1-dist.zip"
 	},
 	{
 		"name": "Logger",
