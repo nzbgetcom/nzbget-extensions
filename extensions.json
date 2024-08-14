@@ -135,11 +135,11 @@
         "name": "NotifyEmbyJellyfin",
         "homepage": "https://github.com/nzbgetcom/Extension-NotifyEmbyJellyfin",
         "displayName": "Notify Emby/Jellyfin",
-        "version": "1.0",
+        "version": "1.1",
         "nzbgetMinVersion": "23.0",
         "author": "Denis",
         "license": "GNU",
         "about": "Post-Processing extension to trigger Emby/Jellyfin after downloads",
-        "url": "https://github.com/nzbgetcom/Extension-NotifyEmbyJellyfin/releases/download/v1.0/notifyembyjellyfin-1.0-dist.zip"
+        "url": "https://github.com/nzbgetcom/Extension-NotifyEmbyJellyfin/releases/download/v1.1/notifyembyjellyfin-1.1-dist.zip"
     }
 ]
