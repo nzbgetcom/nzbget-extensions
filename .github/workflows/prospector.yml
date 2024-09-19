@@ -1,0 +1,18 @@
+name: prospector
+
+on:
+  workflow_call:
+
+jobs:
+  prospector:
+    runs-on: ubuntu-latest
+    
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Run prospector static analysis
+      run: |
+        pip install --user prospector
+        prospector --strictness medium -i lib
