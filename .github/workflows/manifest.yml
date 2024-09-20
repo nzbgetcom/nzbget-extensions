@@ -15,5 +15,5 @@ jobs:
     - name: Run prospector static analysis
       run: |
         pip install --user check-jsonschema
-        curl -o /tmp/extension-manifest.json
+        curl -o /tmp/extension-manifest.json https://raw.githubusercontent.com/nzbgetcom/nzbget-extensions/feature/workflows/json-schema/extension-manifest.json
         check-jsonschema --schemafile /tmp/extension-manifest.json manifest.json
