@@ -12,7 +12,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Run prospector static analysis
+    - name: Check extension manifest
       run: |
         pip install --user check-jsonschema
         curl -o /tmp/extension-manifest.json https://raw.githubusercontent.com/nzbgetcom/nzbget-extensions/feature/workflows/json-schema/extension-manifest.json
