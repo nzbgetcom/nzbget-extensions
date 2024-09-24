@@ -1,4 +1,4 @@
-name: manifest
+name: check master manifest
 
 on:
   push:
@@ -17,7 +17,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
 
-    - name: Check extension manifest
+    - name: Check master extensions manifest
       run: |
         pip install --user check-jsonschema        
         check-jsonschema --schemafile json-schema/master-manifest.json extensions.json
