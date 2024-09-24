@@ -1,0 +1,60 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://nzbget.com/master-manifest.schema.json",
+    "title": "Master list of extensions manifest",
+    "description": "NZBGet master list of extension manifest schema",
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "description": "The extension name",
+                "type": "string"
+            },
+            "homepage": {
+                "description": "Link to the extension homepage",
+                "type": "string"
+            },
+            "displayName": {
+                "description": "The name that will be displayed in the web interface",
+                "type": "string"
+            },
+            "version": {
+                "description": "Extension version",
+                "type": "string"
+            },
+            "nzbgetMinVersion": {
+                "description": "NZBGet minimum required version",
+                "type": "string"
+            },
+            "author": {
+                "description": "Author's name",
+                "type": "string"
+            },
+            "license": {
+                "description": "Extension license",
+                "type": "string"
+            },
+            "about": {
+                "description": "Brief description of the extension",
+                "type": "string"
+            },
+            "url": {
+                "description": "URL of extension archive",
+                "type": "string"
+            }
+        },
+        "minItems": 0,
+        "required": [
+            "name",
+            "homepage",
+            "displayName",
+            "version",
+            "nzbgetMinVersion",
+            "author",
+            "license",
+            "about",
+            "url"
+        ]
+    }
+}
