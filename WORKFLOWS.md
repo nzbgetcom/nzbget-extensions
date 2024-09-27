@@ -7,7 +7,7 @@
 
 ## Prospector
 
-Runs prospector static analysis check (strictness - medium, bundled libs ignored).
+Runs [Prospector](https://prospector.landscape.io) static analysis check (strictness - medium, bundled libs ignored).
 
 Recommended use: branch and tags push
 
