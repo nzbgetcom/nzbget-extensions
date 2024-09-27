@@ -10,6 +10,7 @@ This repository contains a list of NZBGet extensions, which is used by the Exten
 2. Make sure that your extension repository contains the required and possibly optional workflows:
 
 <ul>
+
 Mandatory:
 - [Prospector Python Static Analysis check](WORKFLOWS.md#prospector)
 - [Manifest check](WORKFLOWS.md#manifest)
@@ -23,6 +24,7 @@ Reusable workflows can be used from the current repository.
 Workflows [documentation](WORKFLOWS.md).
 
 For an example of their use, please refer to the Example extensions repository (see [below](#example-extension-can-be-used-as-quickstart)).
+
 </ul>
 
 3. Once your extension is ready, please contact NZBGet maintainers (by creating [Issue](https://github.com/nzbgetcom/nzbget/issues) or [Discussion](https://github.com/nzbgetcom/nzbget/discussions)) to get it added into the extension manager.
