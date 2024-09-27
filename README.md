@@ -17,7 +17,7 @@ Optional:
 - Tests check (Having tests for your extension is highly recommended)
 - Release workflow
 
-Reusable workflows can be used from the current repository. For an example of their use, please refer to the Example extensions repository (see below).
+Reusable workflows can be used from the current repository. Workflows documentation can be found [here](WORKFLOWS.md). For an example of their use, please refer to the Example extensions repository (see below).
 
 3. Once your extension is ready, please contact NZBGet maintainers (by creating Issue or Discussion) to get it added into the extension manager.
 We will create a fork of your extension repository, mirror your release to include it in the extension manager, and make a PR to that repository.
