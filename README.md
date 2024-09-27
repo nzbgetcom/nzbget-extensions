@@ -18,6 +18,9 @@ This repository contains a list of NZBGet extensions, which is used by the Exten
 - Optional:
   - [Tests check](WORKFLOWS.md#tests) (Having tests for your extension is highly recommended)
   - [Release workflow](WORKFLOWS.md#release)
+</ul>
+
+<ul>
 
 Reusable workflows can be used from the current repository.
 
