@@ -1,41 +1,14 @@
 name: extension release
 
-# NZBGet reusable workflow for extension release
-# should be triggered on tag push
-# example use:
-
-# name: release
-
-# on:
-#   push:
-#     tags:
-#     - "v*"
-
-# jobs:
-#   release:
-#     uses: nzbgetcom/nzbget-extensions/.github/workflows/extension-release.yml@main
-#     with:
-#       release-file-list: lib/ ChangeLog.txt README.* main.py manifest.json
-#       release-file-name: videosort
-#       release-dir: VideoSort
-
 on:
   workflow_call:
     inputs:
-      # File list to include in extension archive, space separated.
-      # Wildcards can be used, directories should be ended with '/'
-      # example: release-file-list: lib/ ChangeLog.txt README.* main.py manifest.json
       release-file-list:
         required: true
         type: string
-      # release file base name
-      # example: release-file-name: videosort
-      # will produce releases files like videosort-1.0-dist.zip
       release-file-name:
         required: true
         type: string
-      # top level directory in archive to put all files in
-      # can be empty
       release-dir:
         type: string
         default: ""
@@ -43,10 +16,10 @@ on:
 jobs:
   release:
     runs-on: ubuntu-latest
-    
+
     permissions:
       contents: write
-    
+
     steps:
 
     - name: Checkout
