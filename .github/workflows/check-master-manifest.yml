@@ -1,0 +1,23 @@
+name: check master manifest
+
+on:
+  push:
+    branches:
+    - feature/*
+  pull_request:
+    branches:
+    - main
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Check master extensions manifest
+      run: |
+        pip install --user check-jsonschema
+        check-jsonschema --schemafile json-schema/master-manifest.json extensions.json

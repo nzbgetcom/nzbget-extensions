@@ -1,0 +1,208 @@
+{
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://nzbget.com/extension-manifest.schema.json",
+    "title": "Extension manifest",
+    "description": "NZBGet Extension manifest schema",
+    "type": "object",
+    "properties": {
+        "main": {
+            "description": "The name of the executable file",
+            "type": "string"
+        },
+        "name": {
+            "description": "The extension name, identifier and prefix needed to save the extension configuration options to nzbget.conf",
+            "type": "string"
+        },
+        "homepage": {
+            "description": "Link to the extension homepage",
+            "type": "string"
+        },
+        "kind": {
+            "description": "Kind, depending on the purpose of the extension",
+            "type": "string"
+        },
+        "displayName": {
+            "description": "The name that will be displayed in the web interface",
+            "type": "string"
+        },
+        "version": {
+            "description": "Extension version",
+            "type": "string"
+        },
+        "nzbgetMinVersion": {
+            "description": "NZBGet minimum required version (optional)",
+            "type": "string"
+        },
+        "author": {
+            "description": "Author's name",
+            "type": "string"
+        },
+        "license": {
+            "description": "Extension license",
+            "type": "string"
+        },
+        "about": {
+            "description": "Brief description of the extension",
+            "type": "string"
+        },
+        "description": {
+            "description": "More detailed description of the extension",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 0
+        },
+        "queueEvents": {
+            "description": "Events that could be used by the extension",
+            "type": "string"
+        },
+        "requirements": {
+            "description": "List of requirements",
+            "type": "array",
+            "items": {
+                "type": "string"
+            },
+            "minItems": 0
+        },
+        "options": {
+            "description": "Extension configuration options",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "Option name",
+                        "type": "string"
+                    },
+                    "displayName": {
+                        "description": "Option display name in WebUI",
+                        "type": "string"
+                    },
+                    "value": {
+                        "description": "Default option value",
+                        "type": [
+                            "number",
+                            "string"
+                        ]
+                    },
+                    "description": {
+                        "description": "Option description",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "minItems": 0
+                    },
+                    "select": {
+                        "description": "Option values for select",
+                        "type": "array",
+                        "items": {
+                            "type": [
+                                "number",
+                                "string"
+                            ]
+                        },
+                        "minItems": 0
+                    }
+                },
+                "required": [
+                    "name",
+                    "displayName",
+                    "value",
+                    "description",
+                    "select"
+                ]
+            },
+            "minItems": 0
+        },
+        "commands": {
+            "description": "Extension commands",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "section": {
+                        "description": "Command section",
+                        "type": "string"
+                    },
+                    "name": {
+                        "description": "Command name",
+                        "type": "string"
+                    },
+                    "action": {
+                        "description": "Command action",
+                        "type": "string"
+                    },
+                    "displayName": {
+                        "description": "Option display name in WebUI",
+                        "type": "string"
+                    },
+                    "description": {
+                        "description": "Command description",
+                        "type": "array",
+                        "items": {
+                            "type": "string"
+                        },
+                        "minItems": 0
+                    }
+                },
+                "required": [
+                    "name",
+                    "action",
+                    "displayName",
+                    "description"
+                ]
+            },
+            "minItems": 0
+        },
+        "sections": {
+            "description": "Extension sections",
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "name": {
+                        "description": "Section name",
+                        "type": "string"
+                    },
+                    "prefix": {
+                        "description": "Section prefix",
+                        "type": "string"
+                    },
+                    "multi": {
+                        "description": "Section is dynamic",
+                        "type": "boolean"
+                    }
+                },
+                "required": [
+                    "name",
+                    "prefix",
+                    "multi"
+                ]
+            },
+            "minItems": 0
+        },
+        "taskTime": {
+            "description": "For SCHEDULER extensions: start time of the extension",
+            "type": "string"
+        }
+    },
+    "required": [
+        "main",
+        "name",
+        "homepage",
+        "kind",
+        "displayName",
+        "version",
+        "author",
+        "license",
+        "about",
+        "description",
+        "queueEvents",
+        "requirements",
+        "options",
+        "commands",
+        "taskTime"
+    ]
+}

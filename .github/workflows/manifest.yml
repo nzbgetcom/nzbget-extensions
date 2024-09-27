@@ -1,0 +1,19 @@
+name: manifest
+
+on:
+  workflow_call:
+
+jobs:
+  manifest:
+    runs-on: ubuntu-latest
+    
+    steps:
+
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Check extension manifest
+      run: |
+        pip install --user check-jsonschema
+        curl -o /tmp/extension-manifest.json https://raw.githubusercontent.com/nzbgetcom/nzbget-extensions/main/json-schema/extension-manifest.json
+        check-jsonschema --schemafile /tmp/extension-manifest.json manifest.json
