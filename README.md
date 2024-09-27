@@ -11,13 +11,13 @@ This repository contains a list of NZBGet extensions, which is used by the Exten
 
 <ul>
 
-Mandatory:
-- [Prospector Python Static Analysis check](WORKFLOWS.md#prospector)
-- [Manifest check](WORKFLOWS.md#manifest)
+- Mandatory:
+  - [Prospector Python Static Analysis check](WORKFLOWS.md#prospector)
+  - [Manifest check](WORKFLOWS.md#manifest)
 
-Optional:
-- [Tests check](WORKFLOWS.md#tests) (Having tests for your extension is highly recommended)
-- [Release workflow](WORKFLOWS.md#release)
+- Optional:
+  - [Tests check](WORKFLOWS.md#tests) (Having tests for your extension is highly recommended)
+  - [Release workflow](WORKFLOWS.md#release)
 
 Reusable workflows can be used from the current repository.
 
