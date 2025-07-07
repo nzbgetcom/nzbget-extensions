@@ -1,125 +1,125 @@
 [
-	{
-		"name": "VideoSort",
-		"homepage": "https://github.com/nzbgetcom/Extension-VideoSort",
-		"displayName": "Video Sort",
-		"version": "10.4",
+    {
+        "name": "VideoSort",
+        "homepage": "https://github.com/nzbgetcom/Extension-VideoSort",
+        "displayName": "Video Sort",
+        "version": "10.4",
         "nzbgetMinVersion": "23.0",
-		"author": "Andrey Prygunkov",
-		"license": "GNU",
-		"about": "Sorts movies and tv shows.",
-		"url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v10.4/videosort-10.4-dist.zip"
-	},
-	{
-		"name": "FakeDetector",
-		"homepage": "https://github.com/nzbgetcom/Extension-FakeDetector",
-		"displayName": "Fake Detector",
-		"version": "3.1",
+        "author": "Andrey Prygunkov",
+        "license": "GNU",
+        "about": "Sorts movies and tv shows.",
+        "url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v10.4/videosort-10.4-dist.zip"
+    },
+    {
+        "name": "FakeDetector",
+        "homepage": "https://github.com/nzbgetcom/Extension-FakeDetector",
+        "displayName": "Fake Detector",
+        "version": "3.1",
         "nzbgetMinVersion": "23.0",
-		"author": "Andrey Prygunkov",
-		"license": "GNU",
-		"about": "Detects nzbs with fake media files.",
-		"url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.1/fakedetector-3.1-dist.zip"
-	},
-	{
-		"name": "FailureLink",
-		"homepage": "https://github.com/nzbgetcom/Extension-FailureLink",
-		"displayName": "Failure Link",
-		"version": "3.1",
+        "author": "Andrey Prygunkov",
+        "license": "GNU",
+        "about": "Detects nzbs with fake media files.",
+        "url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.1/fakedetector-3.1-dist.zip"
+    },
+    {
+        "name": "FailureLink",
+        "homepage": "https://github.com/nzbgetcom/Extension-FailureLink",
+        "displayName": "Failure Link",
+        "version": "3.1",
         "nzbgetMinVersion": "23.0",
-		"author": "Andrey Prygunkov",
-		"license": "GNU",
-		"about": "Checks videos to determine if they are corrupt. Inform indexer site about failed or corrupt download and request a replacement nzb.",
-		"url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v3.1/failurelink-3.1-dist.zip"
-	},
-	{
-		"name": "EMail",
-		"homepage": "https://github.com/nzbgetcom/Extension-EMail",
-		"displayName": "EMail",
-		"version": "2.1",
+        "author": "Andrey Prygunkov",
+        "license": "GNU",
+        "about": "Checks videos to determine if they are corrupt. Inform indexer site about failed or corrupt download and request a replacement nzb.",
+        "url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v3.1/failurelink-3.1-dist.zip"
+    },
+    {
+        "name": "EMail",
+        "homepage": "https://github.com/nzbgetcom/Extension-EMail",
+        "displayName": "EMail",
+        "version": "2.1",
         "nzbgetMinVersion": "23.0",
-		"author": "Andrey Prygunkov",
-		"license": "GNU",
-		"about": "Sends E-Mail notification.",
-		"url": "https://github.com/nzbgetcom/Extension-EMail/releases/download/v2.1/email-2.1-dist.zip"
-	},
-	{
-		"name": "Logger",
-		"homepage": "https://github.com/nzbgetcom/Extension-Logger",
-		"displayName": "Logger",
-		"version": "2.0.0",
+        "author": "Andrey Prygunkov",
+        "license": "GNU",
+        "about": "Sends E-Mail notification.",
+        "url": "https://github.com/nzbgetcom/Extension-EMail/releases/download/v2.1/email-2.1-dist.zip"
+    },
+    {
+        "name": "Logger",
+        "homepage": "https://github.com/nzbgetcom/Extension-Logger",
+        "displayName": "Logger",
+        "version": "2.0.0",
         "nzbgetMinVersion": "23.0",
-		"author": "Andrey Prygunkov",
-		"license": "GNU",
-		"about": "Saves nzb log into a file.",
-		"url": "https://github.com/nzbgetcom/Extension-Logger/releases/download/v2.0/logger-2.0-dist.zip"
-	},
-	{
-		"name": "ExtendedUnrar",
-		"homepage": "https://github.com/nzbgetcom/Extension-ExtendedUnrar",
-		"displayName": "Extended Unrar",
-		"version": "2.2",
+        "author": "Andrey Prygunkov",
+        "license": "GNU",
+        "about": "Saves nzb log into a file.",
+        "url": "https://github.com/nzbgetcom/Extension-Logger/releases/download/v2.0/logger-2.0-dist.zip"
+    },
+    {
+        "name": "ExtendedUnrar",
+        "homepage": "https://github.com/nzbgetcom/Extension-ExtendedUnrar",
+        "displayName": "Extended Unrar",
+        "version": "2.2",
         "nzbgetMinVersion": "23.0",
-		"author": "thorli",
-		"license": "GNU",
-		"about": "Unrars nested rar files.",
-		"url": "https://github.com/nzbgetcom/Extension-ExtendedUnrar/releases/download/v2.2/extendedunrar-2.2-dist.zip"
-	},
-	{
-		"name": "PasswordDetector",
-		"homepage": "https://github.com/nzbgetcom/Extension-PasswordDetector",
-		"displayName": "Password Detector",
-		"version": "3.0.0",
+        "author": "thorli",
+        "license": "GNU",
+        "about": "Unrars nested rar files.",
+        "url": "https://github.com/nzbgetcom/Extension-ExtendedUnrar/releases/download/v2.2/extendedunrar-2.2-dist.zip"
+    },
+    {
+        "name": "PasswordDetector",
+        "homepage": "https://github.com/nzbgetcom/Extension-PasswordDetector",
+        "displayName": "Password Detector",
+        "version": "3.0.0",
         "nzbgetMinVersion": "23.0",
-		"author": "JVM",
-		"license": "GNU",
-		"about": "Detects nzbs with password protected .rar archive.",
-		"url": "https://github.com/nzbgetcom/Extension-PasswordDetector/releases/download/v3.0/passworddetector-3.0-dist.zip"
-	},
-	{
-		"name": "EasySort",
-		"homepage": "https://github.com/nzbgetcom/Extension-EasySort",
-		"displayName": "Easy Sort",
-		"version": "3.1",
+        "author": "JVM",
+        "license": "GNU",
+        "about": "Detects nzbs with password protected .rar archive.",
+        "url": "https://github.com/nzbgetcom/Extension-PasswordDetector/releases/download/v3.0/passworddetector-3.0-dist.zip"
+    },
+    {
+        "name": "EasySort",
+        "homepage": "https://github.com/nzbgetcom/Extension-EasySort",
+        "displayName": "Easy Sort",
+        "version": "3.1",
         "nzbgetMinVersion": "23.0",
-		"author": "Andrey Prygunkov",
-		"license": "GPLv3",
-		"about": "Moves files after download into other locations.",
-		"url": "https://github.com/nzbgetcom/Extension-EasySort/releases/download/v3.1/easysort-3.1-dist.zip"
-	},
-	{
-		"name": "NotifyPlex",
-		"homepage": "https://github.com/nzbgetcom/Extension-NotifyPlex",
-		"displayName": "Notify Plex",
-		"version": "4.0",
+        "author": "Andrey Prygunkov",
+        "license": "GPLv3",
+        "about": "Moves files after download into other locations.",
+        "url": "https://github.com/nzbgetcom/Extension-EasySort/releases/download/v3.1/easysort-3.1-dist.zip"
+    },
+    {
+        "name": "NotifyPlex",
+        "homepage": "https://github.com/nzbgetcom/Extension-NotifyPlex",
+        "displayName": "Notify Plex",
+        "version": "4.0",
         "nzbgetMinVersion": "23.0",
-		"author": "mannibis",
-		"license": "GNU",
-		"about": "Post-Processing extension to Update Plex Library.",
-		"url": "https://github.com/nzbgetcom/Extension-NotifyPlex/releases/download/v4.0/notifyplex-4.0-dist.zip"
-	},
-	{
-		"name": "NotifySickChill",
-		"homepage": "https://github.com/nzbgetcom/Extension-NotifySickChill",
-		"displayName": "Notify SickChill",
-		"version": "1.0",
+        "author": "mannibis",
+        "license": "GNU",
+        "about": "Post-Processing extension to Update Plex Library.",
+        "url": "https://github.com/nzbgetcom/Extension-NotifyPlex/releases/download/v4.0/notifyplex-4.0-dist.zip"
+    },
+    {
+        "name": "NotifySickChill",
+        "homepage": "https://github.com/nzbgetcom/Extension-NotifySickChill",
+        "displayName": "Notify SickChill",
+        "version": "1.0",
         "nzbgetMinVersion": "23.0",
-		"author": "Denis",
-		"license": "GNU",
-		"about": "Post-Processing extension to trigger SickChill after downloads.",
-		"url": "https://github.com/nzbgetcom/Extension-NotifySickChill/releases/download/v1.0/notifysickchill-1.0-dist.zip"
-	},
-	{
-		"name": "Completion",
-		"homepage": "https://github.com/nzbgetcom/Extension-Completion",
-		"displayName": "Completion",
-		"version": "3.1",
-		"nzbgetMinVersion": "23.0",
-		"author": "kloaknet",
-		"license": "GPLv3",
-		"about": "Verifies that enough articles are available before starting the download.",
-		"url": "https://github.com/nzbgetcom/Extension-Completion/releases/download/v3.1/completion-3.1-dist.zip"
-	},
+        "author": "Denis",
+        "license": "GNU",
+        "about": "Post-Processing extension to trigger SickChill after downloads.",
+        "url": "https://github.com/nzbgetcom/Extension-NotifySickChill/releases/download/v1.0/notifysickchill-1.0-dist.zip"
+    },
+    {
+        "name": "Completion",
+        "homepage": "https://github.com/nzbgetcom/Extension-Completion",
+        "displayName": "Completion",
+        "version": "3.1",
+        "nzbgetMinVersion": "23.0",
+        "author": "kloaknet",
+        "license": "GPLv3",
+        "about": "Verifies that enough articles are available before starting the download.",
+        "url": "https://github.com/nzbgetcom/Extension-Completion/releases/download/v3.1/completion-3.1-dist.zip"
+    },
     {
         "name": "SpeedControl",
         "homepage": "https://github.com/nzbgetcom/Extension-SpeedControl",
@@ -131,7 +131,7 @@
         "about": "Sets speed limit based on category.",
         "url": "https://github.com/nzbgetcom/Extension-SpeedControl/releases/download/v3.0/speedcontrol-3.0-dist.zip"
     },
-	{
+    {
         "name": "NotifyEmbyJellyfin",
         "homepage": "https://github.com/nzbgetcom/Extension-NotifyEmbyJellyfin",
         "displayName": "Notify Emby/Jellyfin",
@@ -141,5 +141,16 @@
         "license": "GNU",
         "about": "Post-Processing extension to trigger Emby/Jellyfin after downloads",
         "url": "https://github.com/nzbgetcom/Extension-NotifyEmbyJellyfin/releases/download/v1.1/notifyembyjellyfin-1.1-dist.zip"
+    },
+    {
+        "name": "RemoveSamples",
+        "homepage": "https://github.com/nzbgetcom/Extension-RemoveSamples",
+        "displayName": "Remove Samples",
+        "version": "1.0.1",
+        "nzbgetMinVersion": "23.0",
+        "author": "Anunnaki-Astronaut",
+        "license": "GNU",
+        "about": "Post-Processing extension which automatically cleans sample files and directories",
+        "url": "https://github.com/nzbgetcom/Extension-RemoveSamples/releases/download/v1.0.1/removesamples-1.0.1-dist.zip"
     }
 ]
