@@ -55,6 +55,17 @@
         "url": "https://github.com/nzbgetcom/Extension-Logger/releases/download/v2.0/logger-2.0-dist.zip"
     },
     {
+        "name": "ExtendedUnpacker",
+        "homepage": "https://github.com/nzbgetcom/Extension-ExtendedUnpacker",
+        "displayName": "Extended Unpacker",
+        "version": "1.0",
+        "nzbgetMinVersion": "23.0",
+        "author": "piejanssens,thorli",
+        "license": "GNU",
+        "about": "Unpacks nested zip and rar archives.",
+        "url": "https://github.com/nzbgetcom/Extension-ExtendedUnpacker/releases/download/v1.0/extendedunpacker-1.0-dist.zip"
+    },
+    {
         "name": "ExtendedUnrar",
         "homepage": "https://github.com/nzbgetcom/Extension-ExtendedUnrar",
         "displayName": "Extended Unrar",
