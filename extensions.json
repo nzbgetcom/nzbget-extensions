@@ -3,12 +3,12 @@
         "name": "VideoSort",
         "homepage": "https://github.com/nzbgetcom/Extension-VideoSort",
         "displayName": "Video Sort",
-        "version": "10.5",
+        "version": "10.6",
         "nzbgetMinVersion": "23.0",
         "author": "Andrey Prygunkov",
         "license": "GNU",
         "about": "Sorts movies and tv shows.",
-        "url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v10.5/videosort-10.5-dist.zip"
+        "url": "https://github.com/nzbgetcom/Extension-VideoSort/releases/download/v10.6/videosort-10.6-dist.zip"
     },
     {
         "name": "FakeDetector",
