@@ -124,12 +124,12 @@
         "name": "Completion",
         "homepage": "https://github.com/nzbgetcom/Extension-Completion",
         "displayName": "Completion",
-        "version": "3.1",
+        "version": "3.2",
         "nzbgetMinVersion": "23.0",
         "author": "kloaknet",
         "license": "GPLv3",
         "about": "Verifies that enough articles are available before starting the download.",
-        "url": "https://github.com/nzbgetcom/Extension-Completion/releases/download/v3.1/completion-3.1-dist.zip"
+        "url": "https://github.com/nzbgetcom/Extension-Completion/releases/download/v3.2/completion-3.2-dist.zip"
     },
     {
         "name": "SpeedControl",
