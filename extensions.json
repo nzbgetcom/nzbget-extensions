@@ -157,11 +157,11 @@
         "name": "RemoveSamples",
         "homepage": "https://github.com/nzbgetcom/Extension-RemoveSamples",
         "displayName": "Remove Samples",
-        "version": "1.0.1",
+        "version": "1.1.0",
         "nzbgetMinVersion": "23.0",
         "author": "Anunnaki-Astronaut",
-        "license": "GNU",
-        "about": "Post-Processing extension which automatically cleans sample files and directories",
-        "url": "https://github.com/nzbgetcom/Extension-RemoveSamples/releases/download/v1.0.1/removesamples-1.0.1-dist.zip"
+        "license": "GPL-2.0-only",
+        "about": "Detects and removes sample files/folders; includes an optional Test Mode and Quarantine.",
+        "url": "https://github.com/nzbgetcom/Extension-RemoveSamples/releases/download/v1.1.0/removesamples-1.1.0-dist.zip"
     }
 ]
