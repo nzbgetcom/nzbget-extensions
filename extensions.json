@@ -14,23 +14,23 @@
         "name": "FakeDetector",
         "homepage": "https://github.com/nzbgetcom/Extension-FakeDetector",
         "displayName": "FakeDetector",
-        "version": "3.2",
+        "version": "3.3",
         "nzbgetMinVersion": "23.0",
         "author": "Andrey Prygunkov",
         "license": "GNU",
         "about": "Detects nzbs with fake media files.",
-        "url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.2/fakedetector-3.2-dist.zip"
+        "url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.3/fakedetector-3.3-dist.zip"
     },
     {
         "name": "FailureLink",
         "homepage": "https://github.com/nzbgetcom/Extension-FailureLink",
-        "displayName": "Failure Link",
-        "version": "3.1",
+        "displayName": "FailureLink",
+        "version": "3.2",
         "nzbgetMinVersion": "23.0",
         "author": "Andrey Prygunkov",
         "license": "GNU",
         "about": "Checks videos to determine if they are corrupt. Inform indexer site about failed or corrupt download and request a replacement nzb.",
-        "url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v3.1/failurelink-3.1-dist.zip"
+        "url": "https://github.com/nzbgetcom/Extension-FailureLink/releases/download/v3.2/failurelink-3.2-dist.zip"
     },
     {
         "name": "EMail",
@@ -79,13 +79,13 @@
     {
         "name": "PasswordDetector",
         "homepage": "https://github.com/nzbgetcom/Extension-PasswordDetector",
-        "displayName": "Password Detector",
-        "version": "3.0.0",
+        "displayName": "PasswordDetector",
+        "version": "3.1",
         "nzbgetMinVersion": "23.0",
         "author": "JVM",
         "license": "GNU",
         "about": "Detects nzbs with password protected .rar archive.",
-        "url": "https://github.com/nzbgetcom/Extension-PasswordDetector/releases/download/v3.0/passworddetector-3.0-dist.zip"
+        "url": "https://github.com/nzbgetcom/Extension-PasswordDetector/releases/download/v3.1/passworddetector-3.1-dist.zip"
     },
     {
         "name": "EasySort",
