@@ -79,7 +79,7 @@
     {
         "name": "PasswordDetector",
         "homepage": "https://github.com/nzbgetcom/Extension-PasswordDetector",
-        "displayName": "Password1Detector",
+        "displayName": "PasswordDetector",
         "version": "3.1",
         "nzbgetMinVersion": "23.0",
         "author": "JVM",
