@@ -57,24 +57,13 @@
     {
         "name": "ExtendedUnpacker",
         "homepage": "https://github.com/nzbgetcom/Extension-ExtendedUnpacker",
-        "displayName": "Extended Unpacker",
-        "version": "1.1",
+        "displayName": "ExtendedUnpacker",
+        "version": "1.2",
         "nzbgetMinVersion": "23.0",
         "author": "piejanssens,thorli",
         "license": "GNU",
         "about": "Unpacks nested zip and rar archives.",
-        "url": "https://github.com/nzbgetcom/Extension-ExtendedUnpacker/releases/download/v1.1/extendedunpacker-1.1-dist.zip"
-    },
-    {
-        "name": "ExtendedUnrar",
-        "homepage": "https://github.com/nzbgetcom/Extension-ExtendedUnrar",
-        "displayName": "Extended Unrar",
-        "version": "2.2",
-        "nzbgetMinVersion": "23.0",
-        "author": "thorli",
-        "license": "GNU",
-        "about": "Unrars nested rar files.",
-        "url": "https://github.com/nzbgetcom/Extension-ExtendedUnrar/releases/download/v2.2/extendedunrar-2.2-dist.zip"
+        "url": "https://github.com/nzbgetcom/Extension-ExtendedUnpacker/releases/download/v1.2/extendedunpacker-1.2-dist.zip"
     },
     {
         "name": "PasswordDetector",
