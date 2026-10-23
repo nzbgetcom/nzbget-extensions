@@ -62,7 +62,7 @@
         "nzbgetMinVersion": "23.0",
         "author": "piejanssens,thorli",
         "license": "GNU",
-        "about": "Unpacks nested zip and rar archives.",
+        "about": "Unpacks nested archives (7z, zip, rar, tar, gz, bz2, xz, etc.).",
         "url": "https://github.com/nzbgetcom/Extension-ExtendedUnpacker/releases/download/v1.2/extendedunpacker-1.2-dist.zip"
     },
     {
