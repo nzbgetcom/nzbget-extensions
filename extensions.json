@@ -2,7 +2,7 @@
     {
         "name": "VideoSort",
         "homepage": "https://github.com/nzbgetcom/Extension-VideoSort",
-        "displayName": "Video Sort",
+        "displayName": "VideoSort",
         "version": "10.7",
         "nzbgetMinVersion": "23.0",
         "author": "Andrey Prygunkov",
