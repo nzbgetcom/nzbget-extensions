@@ -79,7 +79,7 @@
     {
         "name": "EasySort",
         "homepage": "https://github.com/nzbgetcom/Extension-EasySort",
-        "displayName": "Easy Sort",
+        "displayName": "EasySort",
         "version": "3.2",
         "nzbgetMinVersion": "23.0",
         "author": "Andrey Prygunkov",
@@ -123,7 +123,7 @@
     {
         "name": "SpeedControl",
         "homepage": "https://github.com/nzbgetcom/Extension-SpeedControl",
-        "displayName": "Speed Control",
+        "displayName": "SpeedControl",
         "version": "3.0",
         "nzbgetMinVersion": "24.0",
         "author": "Andrey Prygunkov",
@@ -145,13 +145,45 @@
     {
         "name": "RemoveSamples",
         "homepage": "https://github.com/nzbgetcom/Extension-RemoveSamples",
-        "displayName": "Remove Samples",
+        "displayName": "RemoveSamples",
         "version": "1.1.1",
         "nzbgetMinVersion": "23.0",
         "author": "Anunnaki-Astronaut",
         "license": "GPL-2.0-only",
         "about": "Detects and removes sample files/folders; includes an optional Test Mode and Quarantine.",
         "url": "https://github.com/nzbgetcom/Extension-RemoveSamples/releases/download/v1.1.1/removesamples-1.1.1-dist.zip"
+    },
+        {
+        "name": "ResetDateTime",
+        "homepage": "https://github.com/caronc/nzbget-resetdatetime",
+        "displayName": "ResetDateTime",
+        "version": "1.0.0",
+        "nzbgetMinVersion": "23.0",
+        "author": "Clinton Hall",
+        "license": "GPL-3.0-or-later",
+        "about": "Sets the modified date of downloaded files to now, so new downloads sort as new.",
+        "url": "https://github.com/nzbgetcom/Extension-ResetDateTime/releases/download/v1.0.0/resetdatetime-1.0.0-dist.zip"
+    },
+        {
+        "name": "Notify",
+        "homepage": "https://github.com/caronc/nzb-notify",
+        "displayName": "Notify",
+        "version": "2.0.2",
+        "nzbgetMinVersion": "23.0",
+        "author": "Chris Caron",
+        "license": "GPLv2",
+        "about": "Sends download notifications to Discord, Telegram, email and 160+ other services.",
+        "url": "https://github.com/nzbgetcom/Extension-Notify/releases/download/v2.0.2/notify-2.0.2-dist.zip"
+    },
+        {
+        "name": "TidyIt",
+        "homepage": "https://github.com/caronc/nzbget-tidyit",
+        "displayName": "TidyIt",
+        "version": "1.0.0",
+        "nzbgetMinVersion": "23.0",
+        "author": "Chris Caron",
+        "license": "GPLv3",
+        "about": "Cleans out leftover subtitles, .nfo files and other junk your media library no longer needs.",
+        "url": "https://github.com/nzbgetcom/Extension-TidyIt/releases/download/v1.0.0/tidyit-1.0.0-dist.zip"
     }
 ]
-
