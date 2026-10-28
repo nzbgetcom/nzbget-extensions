@@ -14,12 +14,12 @@
         "name": "FakeDetector",
         "homepage": "https://github.com/nzbgetcom/Extension-FakeDetector",
         "displayName": "FakeDetector",
-        "version": "3.3",
+        "version": "3.4",
         "nzbgetMinVersion": "23.0",
         "author": "Andrey Prygunkov",
         "license": "GNU",
         "about": "Detects nzbs with fake media files.",
-        "url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.3/fakedetector-3.3-dist.zip"
+        "url": "https://github.com/nzbgetcom/Extension-FakeDetector/releases/download/v3.4/fakedetector-3.4-dist.zip"
     },
     {
         "name": "FailureLink",
